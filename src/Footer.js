@@ -5,8 +5,15 @@ export default function Footer() {
   return (
     <div>
       Follow me on{" "}
-      <a href="https://www.instagram.com/michaelakleer/">Instagram</a> and email
-      at <a href="mailto:">kleer.michaela@gmail.com</a>, check out github
+      <a
+        href="https://www.instagram.com/michaelakleer/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Instagram
+      </a>{" "}
+      and email at <a href="mailto:">kleer.michaela@gmail.com</a>, check out
+      github
     </div>
   );
 }
