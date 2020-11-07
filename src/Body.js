@@ -1,21 +1,60 @@
 import React from "react";
+import IntroCertificate from "./IntroCertificate.png";
+import FrontEndCertificate from "./FrontEndCertificate.png";
+import ReactCertificate from "./ReactCertificate.png";
 import "./Body.css";
 
 export default function Body() {
   return (
     <div className="Body">
       <h1>Michaela Kleer</h1>
-      <h2>Frontend React Developer | Musician | Teacher | Librarian</h2>
+      <h2>Frontend React Developer | Musician</h2>
       <div>Brief paragraph about myself</div>
       <div>
-        <h3>Projects</h3>
-        <p>Weather App (include link to netlify and github)</p>
+        <h3>Technologies</h3>
       </div>
       <div>
         <h3>Certificates</h3>
-        <p>Introduction to Coding</p>
-        <p>Front End Development</p>
+        <a
+          href="https://www.shecodes.io/certificates/23cc9c4c9a60d5856d4e07a6e97af0bf"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src={IntroCertificate}
+            alt="Introduction to Coding Certificate"
+            width={360}
+          ></img>
+        </a>
+        <a
+          href="https://www.shecodes.io/certificates/a3f95f38a9fdd4d28f8a63af25adb3a7"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src={FrontEndCertificate}
+            alt="Front End Development Certificate"
+            width={360}
+          ></img>
+        </a>
+        <a
+          href="https://www.shecodes.io/certificates/3186cd5eb3c3dd19a25c722aa2ecaf52s"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src={ReactCertificate}
+            alt="React Development Certificate"
+            width={360}
+          ></img>
+        </a>
+
         <p>React Development</p>
+      </div>
+      <div>
+        <h3>Projects</h3>
+        <p>Vanilla JS Weather App</p>
+        <p>React Weather App (include link to netlify and github)</p>
       </div>
     </div>
   );
