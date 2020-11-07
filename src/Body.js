@@ -4,6 +4,8 @@ import "./Body.css";
 export default function Body() {
   return (
     <div className="Body">
+      <h1>Michaela Kleer</h1>
+      <h2>Frontend React Developer | Musician | Teacher | Librarian</h2>
       <div>Brief paragraph about myself</div>
       <div>
         <h3>Projects</h3>
