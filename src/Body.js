@@ -1,4 +1,5 @@
 import React from "react";
+import Technologies from "./Technologies";
 import IntroCertificate from "./IntroCertificate.png";
 import FrontEndCertificate from "./FrontEndCertificate.png";
 import ReactCertificate from "./ReactCertificate.png";
@@ -12,6 +13,7 @@ export default function Body() {
       <div>Brief paragraph about myself</div>
       <div>
         <h3>Technologies</h3>
+        <Technologies />
       </div>
       <div>
         <h3>Certificates</h3>
