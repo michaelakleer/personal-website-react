@@ -4,38 +4,39 @@ import "./Header.css";
 
 export default function Header() {
   return (
-    <div className="Header" id="navbar">
-      <img src={logo} alt="Kleer Coding logo" className="logo" />
-      <nav>
-        <div className="row">
-          <div className="col-sm-3">
-            <p>
-              <a href="#aboutMe" className="nav-link about">
+    <div className="Header">
+      <nav className="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="/">
+          <img
+            src={logo}
+            width="250"
+            className="d-inline-block align-top"
+            alt="Kleer Coding logo"
+          />
+        </a>
+        <div className="navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <a className="nav-link about" href="#aboutMe">
                 About me
               </a>
-            </p>
-          </div>
-          <div className="col-sm-3">
-            <p>
-              <a href="#technologies" className="nav-link tech">
+            </li>
+            <li className="nav-item">
+              <a className="nav-link tech" href="#technologies">
                 Technologies
               </a>
-            </p>
-          </div>
-          <div className="col-sm-3">
-            <p>
-              <a href="#certificates" className="nav-link certificate">
+            </li>
+            <li className="nav-item">
+              <a className="nav-link certificates" href="#certificates">
                 Certificates
               </a>
-            </p>
-          </div>
-          <div className="col-sm-3">
-            <p>
-              <a href="#projects" className="nav-link projects">
+            </li>
+            <li className="nav-item">
+              <a className="nav-link project" href="#projects">
                 Projects
               </a>
-            </p>
-          </div>
+            </li>
+          </ul>
         </div>
       </nav>
     </div>
