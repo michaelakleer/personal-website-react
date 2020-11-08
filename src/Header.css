@@ -1,12 +1,20 @@
 .Header {
   position: fixed;
   border: 1px solid #000000;
-  width: 100%;
-  margin: 0 10px;
-  top: 0;
-  padding: 5px 15px;
+  width: 85%;
+  margin: 0 auto;
 }
 
 .Header .logo {
-  width: 200px;
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+}
+
+.Header a {
+  text-decoration: none;
+}
+
+.Header p {
+  text-align: center;
 }
