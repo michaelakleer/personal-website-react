@@ -5,7 +5,7 @@ import "./Header.css";
 export default function Header() {
   return (
     <div className="Header">
-      <nav className="navbar navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="/">
           <img
             src={logo}
@@ -26,10 +26,11 @@ export default function Header() {
           <span class="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <a className="nav-link about" href="#aboutMe">
-                About me
+          <ul className="navbar-nav menu">
+            <li className="nav-item active">
+              <a className="nav-link home" href="#home">
+                Home
+                <span className="sr-only">(current)</span>
               </a>
             </li>
             <li className="nav-item">
