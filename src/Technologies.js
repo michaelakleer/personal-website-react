@@ -12,6 +12,7 @@ import ReactIcon from "./images/ReactIcon.png";
 export default function Technologies() {
   return (
     <div>
+      <h3>Technologies</h3>
       <img src={HTML} alt="" width={100}></img>
       <img src={CSS} alt="" width={100}></img>
       <img src={JavaScript} alt="" width={100}></img>
