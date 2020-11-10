@@ -1,8 +1,8 @@
 import React from "react";
 import Technologies from "./Technologies";
-import IntroCertificate from "./IntroCertificate.png";
-import FrontEndCertificate from "./FrontEndCertificate.png";
-import ReactCertificate from "./ReactCertificate.png";
+import IntroCertificate from "./images/IntroCertificate.png";
+import FrontEndCertificate from "./images/FrontEndCertificate.png";
+import ReactCertificate from "./images/ReactCertificate.png";
 import "./Body.css";
 
 export default function Body() {
