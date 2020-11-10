@@ -4,7 +4,7 @@ import "./Header.css";
 
 export default function Header() {
   return (
-    <div className="Header">
+    <header className="Header">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="/">
           <img
@@ -48,9 +48,14 @@ export default function Header() {
                 Projects
               </a>
             </li>
+            <li className="nav-item">
+              <a className="nav-link " href="mailto:kleer.michaela@gmail.com">
+                Contact
+              </a>
+            </li>
           </ul>
         </div>
       </nav>
-    </div>
+    </header>
   );
 }
