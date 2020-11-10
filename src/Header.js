@@ -34,6 +34,11 @@ export default function Header() {
               </a>
             </li>
             <li className="nav-item">
+              <a className="nav-link project" href="#projects">
+                Projects
+              </a>
+            </li>
+            <li className="nav-item">
               <a className="nav-link tech" href="#technologies">
                 Technologies
               </a>
@@ -43,11 +48,7 @@ export default function Header() {
                 Certificates
               </a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link project" href="#projects">
-                Projects
-              </a>
-            </li>
+
             <li className="nav-item">
               <a className="nav-link " href="mailto:kleer.michaela@gmail.com">
                 Contact

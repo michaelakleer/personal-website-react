@@ -11,10 +11,9 @@ export default function Body() {
       <h1>Michaela Kleer</h1>
       <h2>Frontend React Web Developer</h2>
       <div>Brief paragraph about myself</div>
-
+      <Projects />
       <Technologies />
       <Certificates />
-      <Projects />
     </div>
   );
 }
