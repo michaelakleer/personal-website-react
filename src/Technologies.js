@@ -9,6 +9,8 @@ import Bootstrap from "./images/Bootstrap.png";
 import Hosting from "./images/Hosting.png";
 import ReactIcon from "./images/ReactIcon.png";
 
+import "./Technologies.css";
+
 export default function Technologies() {
   return (
     <div>

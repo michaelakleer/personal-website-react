@@ -2,6 +2,7 @@ import React from "react";
 import IntroCertificate from "./images/IntroCertificate.png";
 import FrontEndCertificate from "./images/FrontEndCertificate.png";
 import ReactCertificate from "./images/ReactCertificate.png";
+import "./Certificates.css";
 
 export default function Certificates() {
   return (
