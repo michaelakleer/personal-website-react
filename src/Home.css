@@ -6,3 +6,13 @@
 .Home .description {
   margin-top: 10px;
 }
+
+.Home a {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.Home .socialMediaLinks {
+  margin-top: 20px;
+  background: #fff;
+}
