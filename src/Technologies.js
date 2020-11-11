@@ -13,7 +13,7 @@ import "./Technologies.css";
 
 export default function Technologies() {
   return (
-    <div>
+    <div className="Technologies">
       <h3>Technologies</h3>
       <img src={HTML} alt="" width={100}></img>
       <img src={CSS} alt="" width={100}></img>
