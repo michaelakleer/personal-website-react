@@ -1,6 +1,6 @@
 import React from "react";
 import Linkedin from "./images/Linkedin.png";
-import GitHub from "./images/GitHub-Mark-32px.png";
+import GitHub from "./images/GitHub-Mark-64px.png";
 import Instagram from "./images/instagram-logo.png";
 import "./Home.css";
 
@@ -16,21 +16,27 @@ export default function Home() {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={Linkedin} alt="Linkedin Link" width={32} />
+          <button>
+            <img src={Linkedin} alt="Linkedin Link" width={50} />
+          </button>
         </a>
         <a
           href="https://github.com/michaelakleer"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={GitHub} alt="GitHub Link"></img>
+          <button>
+            <img src={GitHub} alt="GitHub Link" width={42} />
+          </button>
         </a>
         <a
           href="https://www.instagram.com/michaelakleer/"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={Instagram} alt="Instagram Link" width={32}></img>
+          <button>
+            <img src={Instagram} alt="Instagram Link" width={42} />
+          </button>
         </a>
       </div>
     </div>
