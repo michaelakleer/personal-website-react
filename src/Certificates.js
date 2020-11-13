@@ -17,7 +17,8 @@ export default function Certificates() {
           src={IntroCertificate}
           alt="Introduction to Coding Certificate"
           width={360}
-        ></img>
+          className="intro"
+        />
       </a>
       <a
         href="https://www.shecodes.io/certificates/a3f95f38a9fdd4d28f8a63af25adb3a7"
@@ -28,7 +29,8 @@ export default function Certificates() {
           src={FrontEndCertificate}
           alt="Front End Development Certificate"
           width={360}
-        ></img>
+          className="frontEnd"
+        />
       </a>
       <a
         href="https://www.shecodes.io/certificates/3186cd5eb3c3dd19a25c722aa2ecaf52s"
@@ -39,7 +41,8 @@ export default function Certificates() {
           src={ReactCertificate}
           alt="React Development Certificate"
           width={360}
-        ></img>
+          className="react"
+        />
       </a>
     </div>
   );

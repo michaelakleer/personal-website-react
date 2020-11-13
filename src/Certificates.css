@@ -1,3 +1,15 @@
 .Certificates {
   margin-top: 60px;
 }
+
+.Certificates .intro {
+  margin-right: 10px;
+}
+
+.Certificates .frontEnd {
+  margin-right: 10px;
+}
+
+.Certificates .react {
+  margin-right: 10px;
+}
