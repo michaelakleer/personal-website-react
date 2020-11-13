@@ -15,3 +15,21 @@
 .Home .socialMediaLinks {
   margin-top: 20px;
 }
+
+.Home .linkedin {
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  padding: 4px 1px 4px 5px;
+}
+
+.Home .github {
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  padding: 4px 5px 4px 5px;
+}
+
+.Home .instagram {
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  padding: 4px 6px 4px 6px;
+}

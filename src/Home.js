@@ -16,7 +16,7 @@ export default function Home() {
           target="_blank"
           rel="noreferrer"
         >
-          <button>
+          <button className="linkedin">
             <img src={Linkedin} alt="Linkedin Link" width={50} />
           </button>
         </a>
@@ -25,7 +25,7 @@ export default function Home() {
           target="_blank"
           rel="noreferrer"
         >
-          <button>
+          <button className="github">
             <img src={GitHub} alt="GitHub Link" width={42} />
           </button>
         </a>
@@ -34,7 +34,7 @@ export default function Home() {
           target="_blank"
           rel="noreferrer"
         >
-          <button>
+          <button className="instagram">
             <img src={Instagram} alt="Instagram Link" width={42} />
           </button>
         </a>
