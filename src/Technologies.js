@@ -1,7 +1,5 @@
 import React from "react";
-import HTML from "./images/HTML.png";
-import CSS from "./images/CSS.png";
-import JavaScript from "./images/JavaScript.png";
+
 import Editor from "./images/Editor.png";
 import API from "./images/API.png";
 import GitHub from "./images/GitHub.png";
@@ -15,10 +13,17 @@ export default function Technologies() {
   return (
     <div className="Technologies">
       <h3>Technologies</h3>
-      <img src={HTML} alt="" width={100}></img>
-      <img src={CSS} alt="" width={100}></img>
-      <img src={JavaScript} alt="" width={100}></img>
-      <img src={Editor} alt="" width={100}></img>
+      <span>
+        <i class="fab fa-html5 fa-5x"></i>
+      </span>
+      <span>
+        <i class="fab fa-css3-alt fa-5x"></i>
+      </span>
+
+      <span>
+        <i class="fab fa-js-square fa-5x"></i>
+      </span>
+      <img src={Editor} alt="" width={80}></img>
       <img src={API} alt="" width={100}></img>
       <img src={GitHub} alt="" width={100}></img>
       <img src={Bootstrap} alt="" width={100}></img>
