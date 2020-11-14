@@ -17,19 +17,24 @@
 }
 
 .Home .linkedin {
-  border: 1px solid #ffffff;
-  border-radius: 2px;
-  padding: 4px 1px 4px 5px;
+  color: #ffffff;
+  border: none;
+  background: #0b66c1;
+  padding: 4px 7px 4px 7px;
 }
 
 .Home .github {
-  border: 1px solid #ffffff;
-  border-radius: 2px;
+  border: none;
   padding: 4px 5px 4px 5px;
 }
 
 .Home .instagram {
-  border: 1px solid #ffffff;
-  border-radius: 2px;
+  background: #f00075;
+  border: none;
+
   padding: 4px 6px 4px 6px;
+}
+
+.Home .instagramIcon {
+  color: #ffffff;
 }

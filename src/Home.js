@@ -1,7 +1,5 @@
 import React from "react";
-import Linkedin from "./images/Linkedin.png";
-import GitHub from "./images/GitHub-Mark-64px.png";
-import Instagram from "./images/instagram-logo.png";
+
 import "./Home.css";
 
 export default function Home() {
@@ -17,7 +15,7 @@ export default function Home() {
           rel="noreferrer"
         >
           <button className="linkedin">
-            <img src={Linkedin} alt="Linkedin Link" width={50} />
+            <i class="fab fa-linkedin-in fa-3x"></i>
           </button>
         </a>
         <a
@@ -26,7 +24,7 @@ export default function Home() {
           rel="noreferrer"
         >
           <button className="github">
-            <img src={GitHub} alt="GitHub Link" width={42} />
+            <i class="fab fa-github fa-3x"></i>
           </button>
         </a>
         <a
@@ -35,7 +33,7 @@ export default function Home() {
           rel="noreferrer"
         >
           <button className="instagram">
-            <img src={Instagram} alt="Instagram Link" width={42} />
+            <i class="fab fa-instagram fa-3x instagramIcon"></i>
           </button>
         </a>
       </div>
