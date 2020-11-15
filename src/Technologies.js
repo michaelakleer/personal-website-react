@@ -3,8 +3,6 @@ import React from "react";
 import VS from "./images/VS-Code.png";
 import API from "./images/API-image.png";
 
-import Hosting from "./images/Hosting.png";
-
 import "./Technologies.css";
 
 export default function Technologies() {
@@ -31,7 +29,10 @@ export default function Technologies() {
           </span>
         </div>
         <div className="col-sm-1">
-          <img src={VS} alt="" width={80}></img>
+          <span>
+            <img src={VS} alt="" width={75} className="visualStudio" />
+            <p>VS Code</p>
+          </span>
         </div>
         <div className="col-sm-1">
           <img src={API} alt="" width={80}></img>
