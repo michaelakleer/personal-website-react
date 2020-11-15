@@ -1,11 +1,9 @@
 import React from "react";
 
-import Editor from "./images/Editor.png";
+import Editor from "./images/VS-Code.png";
 import API from "./images/API.png";
-import GitHub from "./images/GitHub.png";
-import Bootstrap from "./images/Bootstrap.png";
+
 import Hosting from "./images/Hosting.png";
-import ReactIcon from "./images/ReactIcon.png";
 
 import "./Technologies.css";
 
@@ -25,10 +23,19 @@ export default function Technologies() {
       </span>
       <img src={Editor} alt="" width={80}></img>
       <img src={API} alt="" width={100}></img>
-      <img src={GitHub} alt="" width={100}></img>
-      <img src={Bootstrap} alt="" width={100}></img>
+
+      <span className="github">
+        <i class="fab fa-github fa-5x"></i>
+      </span>
+      <span className="bootstrap">
+        <i class="fab fa-bootstrap fa-5x"></i>
+      </span>
+
       <img src={Hosting} alt="" width={100}></img>
-      <img src={ReactIcon} alt="" width={100}></img>
+
+      <span className="react">
+        <i class="fab fa-react fa-5x"></i>
+      </span>
     </div>
   );
 }
