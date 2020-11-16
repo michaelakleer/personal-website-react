@@ -9,10 +9,12 @@ import "./Body.css";
 export default function Body() {
   return (
     <div className="Body">
-      <Home />
-      <Projects />
-      <Technologies />
-      <Certificates />
+      <div className="container">
+        <Home />
+        <Projects />
+        <Technologies />
+        <Certificates />
+      </div>
     </div>
   );
 }
