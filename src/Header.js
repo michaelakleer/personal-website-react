@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <header className="Header">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand logo" href="/">
           <img
             src={logo}
             width="250"

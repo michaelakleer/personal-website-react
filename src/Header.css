@@ -5,5 +5,9 @@ header {
 }
 
 .menu {
-  margin-left: 185px;
+  margin-left: 800px;
+}
+
+.Header .logo {
+  margin-left: 15px;
 }
