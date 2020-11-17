@@ -1,16 +1,23 @@
-import Header from "./Header";
-import Body from "./Body";
-import Footer from "./Footer";
+import React from "react";
+import Breakpoint, { BreakpointProvider } from "react-socks";
+
+import Website from "./Website";
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <Header />
-      <Body />
-      <Footer />
-    </div>
+    <BreakpointProvider>
+      <div className="App">
+        <Breakpoint small down>
+          <Website />
+        </Breakpoint>
+        <Breakpoint medium only>
+          <Website />
+        </Breakpoint>
+        <Breakpoint large up>
+          <Website />
+        </Breakpoint>
+      </div>
+    </BreakpointProvider>
   );
 }
-
-export default App;
