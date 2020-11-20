@@ -11,8 +11,9 @@ export default function Body() {
     <div className="Body">
       <div className="container">
         <Home />
-        <Projects />
+
         <Technologies />
+        <Projects />
         <Certificates />
       </div>
     </div>
