@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "./images/logo.png";
 import "./Navbar.css";
 
 export default function Header() {
+  const [dropMenu, setDropMenu] = useState(false);
   return (
     <div className="Navbar">
       <nav className="navbar" role="navigation" aria-label="main navigation">
@@ -12,10 +13,9 @@ export default function Header() {
           </a>
           <a
             role="button"
-            className="navbar-burger burger"
+            className="navbar-burger"
             aria-label="menu"
             aria-expanded="false"
-            data-target="navbarBasicExample"
           >
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
@@ -37,13 +37,13 @@ export default function Header() {
               Certificates
             </a>
           </div>
-        </div>
-        <div className="navbar-end">
-          <div className="navbar-item">
-            <div className="button">
-              <a href="mailto:kleer.michaela@gmail.com" className="button">
-                Contact
-              </a>
+          <div className="navbar-end">
+            <div className="navbar-item">
+              <div className="buttons">
+                <a href="mailto:kleer.michaela@gmail.com" className="button">
+                  <strong>Contact</strong>
+                </a>
+              </div>
             </div>
           </div>
         </div>
