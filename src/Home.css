@@ -19,3 +19,36 @@
 .Home a:hover {
   text-decoration: none;
 }
+
+.Home .linkedin {
+  color: #ffffff;
+  background: #0b66c1;
+}
+
+.Home .linkedin:hover {
+  color: #0b66c1;
+  background: #ffffff;
+  transition: all 0.2s ease-in-out;
+}
+
+.Home .github {
+  color: #ffffff;
+  background: #000000;
+}
+
+.Home .github:hover {
+  color: #000000;
+  background: #ffffff;
+  transition: all 0.2s ease-in-out;
+}
+
+.Home .instagram {
+  color: #ffffff;
+  background: #f00075;
+}
+
+.Home .instagram:hover {
+  color: #f00075;
+  background: #ffffff;
+  transition: all 0.2s ease-in-out;
+}
