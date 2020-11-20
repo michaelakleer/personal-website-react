@@ -13,28 +13,25 @@ export default function Home() {
           href="https://www.linkedin.com/in/michaela-kleer-2492641b3/"
           target="_blank"
           rel="noreferrer"
+          className="button"
         >
-          <button className="linkedin">
-            <i class="fab fa-linkedin-in fa-3x"></i>
-          </button>
+          <i class="fab fa-linkedin-in "></i>
         </a>
         <a
           href="https://github.com/michaelakleer"
           target="_blank"
           rel="noreferrer"
+          className="button"
         >
-          <button className="github">
-            <i class="fab fa-github fa-3x"></i>
-          </button>
+          <i class="fab fa-github "></i>
         </a>
         <a
           href="https://www.instagram.com/michaelakleer/"
           target="_blank"
           rel="noreferrer"
+          className="button"
         >
-          <button className="instagram">
-            <i class="fab fa-instagram fa-3x instagramIcon"></i>
-          </button>
+          <i class="fab fa-instagram instagramIcon"></i>
         </a>
       </div>
     </div>

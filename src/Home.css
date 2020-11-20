@@ -16,25 +16,6 @@
   margin-top: 20px;
 }
 
-.Home .linkedin {
-  color: #ffffff;
-  border: none;
-  background: #0b66c1;
-  padding: 4px 7px 4px 7px;
-}
-
-.Home .github {
-  border: none;
-  padding: 4px 5px 4px 5px;
-}
-
-.Home .instagram {
-  background: #f00075;
-  border: none;
-
-  padding: 4px 6px 4px 6px;
-}
-
-.Home .instagramIcon {
-  color: #ffffff;
+.Home a:hover {
+  text-decoration: none;
 }

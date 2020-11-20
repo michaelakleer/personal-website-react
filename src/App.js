@@ -1,23 +1,18 @@
 import React from "react";
-import Breakpoint, { BreakpointProvider } from "react-socks";
+import "react-bulma-components/dist/react-bulma-components.min.css";
 
-import Website from "./Website";
+import Header from "./Header";
+import Body from "./Body";
+import Footer from "./Footer";
+
 import "./App.css";
 
 export default function App() {
   return (
-    <BreakpointProvider>
-      <div className="App">
-        <Breakpoint small down>
-          <Website />
-        </Breakpoint>
-        <Breakpoint medium only>
-          <Website />
-        </Breakpoint>
-        <Breakpoint large up>
-          <Website />
-        </Breakpoint>
-      </div>
-    </BreakpointProvider>
+    <div className="App">
+      <Header />
+      <Body />
+      <Footer />
+    </div>
   );
 }
