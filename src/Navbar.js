@@ -3,26 +3,36 @@ import logo from "./images/logo.png";
 import "./Navbar.css";
 
 export default function Header() {
-  const [dropMenu, setDropMenu] = useState(false);
+  const [active, setActive] = useState(false);
+
   return (
-    <div className="Navbar">
-      <nav className="navbar" role="navigation" aria-label="main navigation">
+    <nav
+      className="bd-navbar navbar has-shadow is-spaced"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div className="container">
         <div className="navbar-brand">
-          <a className="navbar-item" href="/">
+          <a href="/" className="navbar-item">
             <img src={logo} alt="Kleer Code logo" width="" />
           </a>
+
           <a
+            onClick={() => {
+              setActive(!active);
+            }}
             role="button"
-            className="navbar-burger"
+            className={`navbar-burger burger ${active ? "is-active" : ""}`}
             aria-label="menu"
             aria-expanded="false"
+            data-target="navbarMenu"
           >
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
           </a>
         </div>
-        <div className="navbar-menu">
+        <div className={`navbar-menu ${active ? "is-active" : ""}`}>
           <div className="navbar-start">
             <a href="/" className="navbar-item">
               Home
@@ -47,7 +57,7 @@ export default function Header() {
             </div>
           </div>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
   );
 }
