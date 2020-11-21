@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import logo from "./images/logo.png";
+
 import "./Navbar.css";
 
 export default function Header() {
@@ -7,7 +8,7 @@ export default function Header() {
 
   return (
     <nav
-      className="bd-navbar navbar has-shadow is-spaced"
+      className="bd-navbar navbar has-shadow is-spaced is-fixed-top"
       role="navigation"
       aria-label="main navigation"
     >
@@ -25,7 +26,7 @@ export default function Header() {
             className={`navbar-burger burger ${active ? "is-active" : ""}`}
             aria-label="menu"
             aria-expanded="false"
-            data-target="navbarMenu"
+            data-target="navbarBasicExample"
           >
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
@@ -34,7 +35,7 @@ export default function Header() {
         </div>
         <div className={`navbar-menu ${active ? "is-active" : ""}`}>
           <div className="navbar-start">
-            <a href="/" className="navbar-item">
+            <a href="/" className="navbar-item is-active">
               Home
             </a>
             <a href="/" className="navbar-item">
