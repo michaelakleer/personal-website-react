@@ -27,6 +27,7 @@ export default function Header() {
             aria-label="menu"
             aria-expanded="false"
             data-target="navbarBasicExample"
+            href="/"
           >
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
