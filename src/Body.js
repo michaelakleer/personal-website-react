@@ -4,6 +4,8 @@ import Projects from "./Projects";
 import Technologies from "./Technologies";
 import Certificates from "./Certificates";
 
+import "react-bulma-components/dist/react-bulma-components.min.css";
+
 import "./Body.css";
 
 export default function Body() {
