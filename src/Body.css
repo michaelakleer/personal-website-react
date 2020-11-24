@@ -1,12 +1,23 @@
+section {
+  padding: 21rem 24px 21rem 24px;
+}
+
 .home {
   color: #ffffff;
   background: #ea8a8a;
-  padding: 300px 24px 300px 24px;
 }
 
 .aboutMe {
   background: #f2f2f2;
-  padding: 300px 24px 300px 24px;
+}
+
+.Body .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects {
+  background: #ea8a8a;
 }
 
 .intro {
@@ -15,5 +26,14 @@
 }
 
 .Body h1 {
-  font-size: 40px;
+  font-size: 50px;
+}
+
+.Body h2 {
+  font-size: 36px;
+}
+
+.Body .paragraph {
+  border: 1px solid #000000;
+  margin: 1rem 12rem;
 }
