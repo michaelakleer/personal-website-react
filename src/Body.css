@@ -1,4 +1,19 @@
-.Body {
-  color: #000000;
-  margin-top: 115px;
+.home {
+  color: #ffffff;
+  background: #ea8a8a;
+  padding: 300px 24px 300px 24px;
+}
+
+.aboutMe {
+  background: #ffffff;
+  padding: 300px 24px 300px 24px;
+}
+
+.intro {
+  margin: 0 50px 0 70px;
+  padding: 20px 30px;
+}
+
+.Body h1 {
+  font-size: 40px;
 }
