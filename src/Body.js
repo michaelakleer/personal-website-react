@@ -11,32 +11,33 @@ export default function Body() {
           <h2>Front-end Web Developer</h2>
         </div>
       </section>
-      <section className="aboutMe">
-        <div className="container">
-          <div className="paragraph">
-            <p>
-              Hi! I am a Winnipeg-based coder and professional musician. I
-              strive for clean design and simple code in every project I get my
-              hands on. I have always had a hunger to learn and improve my
-              skills, which fits nicely with both of my passions. I love what I
-              do and I can't wait to help you achieve your vision!
-            </p>
+      <section>
+        <div className="containerOne">
+          <div className="boxOne">
+            <h3>One</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
-          <div className="technologies">
-            <ul>
-              <li>Languages I speak:</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>React</li>
-            </ul>
-            <ul>
-              <li>Dev Tools:</li>
-              <li>Bootstrap</li>
-              <li>Bulma</li>
-              <li>GitHub</li>
-              <li>Terminal</li>
-            </ul>
+          <div className="boxTwo">
+            <h3>Two</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div className="boxThree">
+            <h3>Three</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div className="containerTwo">
+          <div className="containerTwoBox">
+            <h3>Four</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div className="containerTwoBox">
+            <h3>Five</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div className="containerTwoBox">
+            <h3>Six</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
       </section>

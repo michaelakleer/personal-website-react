@@ -11,11 +11,6 @@ section {
   background: #f2f2f2;
 }
 
-.Body .container {
-  display: flex;
-  flex-direction: column;
-}
-
 .projects {
   background: #ea8a8a;
 }
@@ -33,7 +28,37 @@ section {
   font-size: 36px;
 }
 
-.Body .paragraph {
-  border: 1px solid #000000;
-  margin: 1rem 12rem;
+.containerOne {
+  display: flex;
+  align-items: flex-start;
+}
+
+.containerTwo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.containerOne div,
+.containerTwo div {
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.boxOne {
+  flex: 2;
+  order: 2;
+}
+
+.boxTwo {
+  flex: 1;
+  order: 1;
+}
+
+.boxThree {
+  flex: 1;
+  order: 3;
+}
+
+.containerTwoBox {
+  flex-basis: 27%;
 }
