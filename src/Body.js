@@ -41,7 +41,12 @@ export default function Body() {
           </div>
         </div>
       </section>
-      <section className="projects"></section>
+      <section className="projects">
+        <h1>Projects</h1>
+        <p>Vanilla Javascript Weather App</p>
+        <p>React Weather App</p>
+      </section>
+      <footer>Footer</footer>
     </div>
   );
 }
