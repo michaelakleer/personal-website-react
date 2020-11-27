@@ -2,6 +2,10 @@ section {
   padding: 21rem 24px 21rem 24px;
 }
 
+footer {
+  padding: 50px 30px;
+}
+
 .home {
   color: #ffffff;
   background: #ea8a8a;
@@ -12,6 +16,7 @@ section {
 }
 
 .projects {
+  color: #ffffff;
   background: #ea8a8a;
 }
 
