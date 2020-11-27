@@ -59,7 +59,7 @@
 
 @media screen and (max-width: 960px) {
   .NavbarItems {
-    position: relative;
+    position: fixed;
   }
 
   .nav-menu {
@@ -75,7 +75,7 @@
   }
 
   .nav-menu.active {
-    background: #4d4545;
+    background: #ea8a8a;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -90,7 +90,7 @@
   }
 
   .nav-links:hover {
-    background-color: #7577fa;
+    background-color: #f2f2f2;
     border-radius: 0;
   }
 
@@ -123,7 +123,7 @@
     margin: 10px auto;
     border-radius: 4px;
     width: 80%;
-    background: #4de9e4;
+    background: #685454;
     text-decoration: none;
     color: #ffffff;
     font-size: 1.5rem;
@@ -131,7 +131,7 @@
 
   .nav-links-mobile:hover {
     background: #fff;
-    color: #757575;
+    color: #685454;
     transition: 250ms;
   }
 
