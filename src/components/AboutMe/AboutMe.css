@@ -1,0 +1,63 @@
+.AboutMe {
+  background: #f2f2f2;
+  padding: 18rem 50px 18rem 50px;
+}
+
+.AboutMe h3 {
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+.greeting {
+  font-size: 40px;
+}
+
+.greeting,
+.personalParagraph {
+  display: block;
+  max-width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  color: #212121;
+}
+
+.personalParagraph {
+  margin-top: 12px;
+  font-size: 18px;
+}
+
+.AboutMe .container {
+  margin-top: 40px;
+  display: block;
+  margin: 100px auto 0;
+  max-width: 60%;
+  text-align: center;
+  background: #ea8a8a;
+  color: #ffffff;
+  border-radius: 5px;
+  padding-bottom: 20px;
+}
+
+.AboutMe ul {
+  list-style: none;
+}
+
+.languages,
+.devTools {
+  margin-top: 20px;
+}
+
+.AboutMe .title {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.lists {
+  margin-top: 15px;
+}
+
+.containerOne {
+  display: flex;
+  justify-content: space-around;
+}

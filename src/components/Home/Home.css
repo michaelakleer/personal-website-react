@@ -1,0 +1,18 @@
+.Home {
+  color: #ffffff;
+  background: #ea8a8a;
+  padding: 25rem 24px 25rem 24px;
+}
+
+.Home .intro {
+  margin: 0 50px 0 70px;
+  padding: 20px 30px;
+}
+
+.Home h1 {
+  font-size: 50px;
+}
+
+.Home h2 {
+  font-size: 36px;
+}
