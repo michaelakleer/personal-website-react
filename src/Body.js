@@ -11,34 +11,15 @@ export default function Body() {
           <h2>Front-end Web Developer</h2>
         </div>
       </section>
-      <section>
-        <div className="containerOne">
-          <div className="boxOne">
-            <h3>One</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </div>
-          <div className="boxTwo">
-            <h3>Two</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </div>
-          <div className="boxThree">
-            <h3>Three</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </div>
-        </div>
-        <div className="containerTwo">
-          <div className="containerTwoBox">
-            <h3>Four</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </div>
-          <div className="containerTwoBox">
-            <h3>Five</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </div>
-          <div className="containerTwoBox">
-            <h3>Six</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </div>
+      <section className="aboutMe">
+        <div className="personalParagraph">
+          <p>
+            Hi! I am a Winnipeg-based coder and professional musician. I strive
+            for clean design and simple code in every project I get my hands on.
+            I have always had a hunger to learn and improve my skills, which
+            fits nicely with both of my passions. I love what I do and I can't
+            wait to help you achieve your vision!
+          </p>
         </div>
       </section>
       <section className="projects">
