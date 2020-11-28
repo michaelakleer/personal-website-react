@@ -7,15 +7,15 @@ export default function AboutMe() {
       <div>
         <p className="greeting">Hi! I'm Michaela!</p>
         <p className="personalParagraph">
-          I am a Winnipeg-based coder and professional musician. I strive for
-          clean design and simple code in every project I get my hands on. I
+          I am a Winnipeg-based coder and professional musician. <br />I strive
+          for clean design and simple code in every project I get my hands on. I
           have always had a hunger to learn and improve my skills, which fits
           nicely with both of my passions. I love what I do and I can't wait to
           help you achieve your vision!
         </p>
 
         <div className="container">
-          <h3>As a Front-end Web Developer:</h3>
+          <h3>Front-end Web Developer</h3>
           <div className="containerOne">
             <div className="languages">
               <p className="title">Languages I speak</p>
