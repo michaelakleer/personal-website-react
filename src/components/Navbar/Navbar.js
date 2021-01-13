@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { MenuItems } from "./MenuItems";
+import { Link } from "react-router-dom";
 import { Button } from "../Button";
 import "./Navbar.css";
 
@@ -30,7 +31,9 @@ class Navbar extends Component {
             );
           })}
         </ul>
-        <Button>Contact</Button>
+        <Link to="/contact">
+          <Button>Contact</Button>
+        </Link>
       </nav>
     );
   }
