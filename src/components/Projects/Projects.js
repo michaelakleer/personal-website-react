@@ -12,6 +12,8 @@ export default function Projects() {
       <br />
       <h2>Projects</h2>
       <p>Vanilla Javascript Weather App</p>
+      <div className="container"></div>
+
       <p>React Weather App</p>
       <br />
       <h2>In progress</h2>
